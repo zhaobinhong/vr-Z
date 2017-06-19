@@ -64,7 +64,7 @@
         var geometry = new THREE.BoxGeometry(6, 6, 6);
         var material = new THREE.MeshNormalMaterial();
         cube = new THREE.Mesh(geometry, material);
-        cube.position.set(-15, 30, 10);
+        cube.position.set(0, 10, 20);//第一个参数 ：正数是向左移动负数向右移动；第二个参数：高低；第三个参数：远近距离
         scene.add(cube);
 
         //Create text
